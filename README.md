@@ -1,6 +1,6 @@
 # NVM-Install-Node-Versions
 
-![link](https://raw.githubusercontent.com/nvm-sh/logos/bf1f9618e83e5098024b18c73ada1b0f542db5f8/nvm-logo-tag-white.svg)
+<img height="100em" src="https://raw.githubusercontent.com/nvm-sh/logos/bf1f9618e83e5098024b18c73ada1b0f542db5f8/nvm-logo-tag-white.svg" />
 
 Este tutorial trata-se de como configurar o NVM. O nvm comando é um script bash compatível com POSIX que facilita o gerenciamento de várias versões do Node.js em um único ambiente.
 
