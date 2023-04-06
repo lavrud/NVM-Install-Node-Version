@@ -6,7 +6,7 @@ Este tutorial trata-se de como configurar o NVM. O nvm comando é um script bash
 
 ## Baixe o script de instalação:
 
-• Usando curl ou wget, baixe o script de instalação. No URL abaixo:
+• Usando curl ou wget, baixe o script de instalação. No URL abaixo:<br>
 `curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh`
 
 Este script clona o repositório nvm em ~/.nvm . Em seguida, ele atualiza seu perfil ( ~/.bash_profile , ~/.zshrc , ~/.profile ou ~/.bashrc ) para originar o nvm.sh que ele contém.<br>
@@ -73,9 +73,9 @@ which node
 
 ## Alternar para outra versão
 
-Para mudar para outra versão do shell ativo, use _nvm use_.
+Para mudar para outra versão do shell ativo, use _[nvm use]_.
 
 Para uma versão específica, forneça um número de versão:
 
-``nvm use 10.16.3
-# => Now using node v10.16.3 (npm v6.9.0)``
+nvm use 10.16.3
+`# => Now using node v10.16.3 (npm v6.9.0)`
