@@ -16,7 +16,7 @@ Este script clona o repositório nvm em ~/.nvm . Em seguida, ele atualiza seu pe
 Para obter as alterações em seu perfil, feche e reabra o terminal ou obtenha manualmente seu respectivo ~/.profile.<br>
 
 Exemplo:<br>
-`source ~/.bash_profile`
+`source ~/.zshrc`
 
 Você pode confirmar se seu perfil está atualizado observando a saída do script de instalação para determinar qual arquivo foi usado. Procure algo como o seguinte nesse arquivo:<br>
 
