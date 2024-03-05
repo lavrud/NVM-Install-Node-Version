@@ -11,18 +11,18 @@ Este tutorial trata-se de como configurar o NVM. O nvm comando é um script bash
 
 Este script clona o repositório nvm em ~/.nvm . Em seguida, ele atualiza seu perfil ( ~/.bash_profile , ~/.zshrc , ~/.profile ou ~/.bashrc ) para originar o nvm.sh que ele contém.<br>
 
-Você pode confirmar se seu perfil está atualizado observando a saída do script de instalação para determinar qual arquivo foi usado. Procure algo como o seguinte nesse arquivo:<br>
-
-``export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion``
-
 ## Reinicie seu terminal:
 
 Para obter as alterações em seu perfil, feche e reabra o terminal ou obtenha manualmente seu respectivo ~/.profile.<br>
 
 Exemplo:<br>
 `source ~/.bash_profile`
+
+Você pode confirmar se seu perfil está atualizado observando a saída do script de instalação para determinar qual arquivo foi usado. Procure algo como o seguinte nesse arquivo:<br>
+
+``export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion``
 
 ## Verifique se funcionou:
 
