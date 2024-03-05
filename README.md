@@ -20,9 +20,8 @@ Exemplo:<br>
 
 Você pode confirmar se seu perfil está atualizado observando a saída do script de instalação para determinar qual arquivo foi usado. Procure algo como o seguinte nesse arquivo:<br>
 
-``export NVM_DIR="$HOME/.nvm"
-  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-  [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion``
+<pre>export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm</pre>
 
 ## Verifique se funcionou:
 
